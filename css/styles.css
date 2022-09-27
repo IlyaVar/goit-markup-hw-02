@@ -1,0 +1,28 @@
+body    {
+    background-color: #F5F5F5;
+    color: #212121;
+}
+.logo   {
+color: #2196F3;
+}
+.list  {
+    list-style: none;
+}
+.site-nav .link   {
+    color:#212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus   {
+    color: #2196F3;
+}
+
+/* DONE фон ОСНОВНОЙ #F5F5F5 */
+/* DONE основной текст #212121 */
+/* DONE цвет лого #2196F3 */
+/* фон шапки #FFFFFF */
+/* вторичный цвет #757575 */
+/* акцент #2196F3 */
+/* заголовок белый #FFFFFF */
+/* фон заголовка #2F303A */
+/* фон 3 секции #F5F4FA */
+/* фон футера #2F303A */
