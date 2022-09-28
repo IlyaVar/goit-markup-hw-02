@@ -1,19 +1,120 @@
-body    {
-    background-color: #F5F5F5;
-    color: #212121;
+:root {
+  --main-bg: #ffffff;
+  --main-text: #212121;
+  --second-text: #757575;
+  --logo: #2196f3;
+  --accent-text: #2196f3;
+  --first-section-bg: #2f303a;
+  --second-section-bg: #f5f5f5;
+  --third-section-bg: #f5f4fa;
+  --footer-bg: #2f303a;
 }
-.logo   {
-color: #2196F3;
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
-.list  {
-    list-style: none;
+.logo {
+  color: var(--logo);
+  font-family: Raleway, sans-serif;
 }
-.site-nav .link   {
-    color:#212121;
+.list {
+  list-style: none;
+}
+/* не унаследует цвет!!! */
+.site-nav .link,
+.nav-link {
+  color: var(--main-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
-.site-nav .link:focus   {
-    color: #2196F3;
+.site-nav .link:focus,
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--accent-text);
+}
+.nav-link {
+  color: var(--second-text);
+}
+.hero {
+  background-color: var(--first-section-bg);
+}
+.hero-text {
+  color: var(--main-bg);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  cursor: pointer;
+}
+.main-btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  /* text
+почему кнопка не в центе? */
+  color: var(--main-bg);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.main-page {
+  background-color: var(--second-section-bg);
+}
+.subdject {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.main-text {
+  color: var(--second-text);
+  font-size: 14px;
+  line-height: 1.71px;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.page {
+  background-color: var(--third-section-bg);
+}
+.heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+.text {
+  color: var(--second-text);
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+.footer {
+  background-color: var(--footer-bg);
+}
+.footer-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address {
+  color: var(--main-bg);
 }
 
 /* DONE фон ОСНОВНОЙ #F5F5F5 */
