@@ -24,6 +24,7 @@
 .footer 
 .footer-text 
 .address 
+.address-text
 
 -###-portfolio-###-
 
@@ -129,7 +130,7 @@ body {
   color: var(--second-text);
 }
 /* footer global */
-address {
+.address {
   font-style: normal;
 }
 .footer {
@@ -139,7 +140,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
 }
-.address {
+.address-text {
   color: var(--main-bg);
 }
 .nav-link-footer {
@@ -239,12 +240,12 @@ address {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.link .section-exmpls-heading {
+.section-exmpls-heading {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.link .section-exmpls-text {
+.section-exmpls-text {
   color: var(--second-text);
   font-size: 16px;
   line-height: 1.88;
